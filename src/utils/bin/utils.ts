@@ -20,7 +20,7 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://www.sebliu.xyz', '_self');
+  window.open('https://gui.sebliu.xyz', '_self');
 
   return 'Opening GUI version...';
 };
