@@ -29,7 +29,7 @@
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
     "typescript": "5.0.4",
-    "shiki": "^0.6.0"
+    "shiki": "0.14.4"
   },
   "devDependencies": {
     "@opentelemetry/api": "^1.4.1",
