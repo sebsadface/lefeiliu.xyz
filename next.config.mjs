@@ -7,11 +7,7 @@ const nextConfig = {
 		appDir: true,
 		mdxRs: true,
 	},
-	module.exports = {
-	  // Other configurations
-	  experimental: {
-	    output: 'export',
-	  },
+	output: 'export',
 };
 
 export default withContentlayer(nextConfig);
