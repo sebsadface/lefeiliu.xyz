@@ -20,7 +20,7 @@ Example:
     case 'ls':
       let result = Themes.map((theme) => theme.name.toLowerCase()).join(', ');
       result += '\n\n';
-      result += `You can preview all these themes <a href="https://github.com/sebsadface/terminal/tree/master/docs/themes">in the docs</a>`;
+      result += `You can preview all these themes <a href="https://github.com/sebsadface/sebliu.xyz/tree/terminal/docs/themes">in the docs</a>`;
 
       return result;
     case 'set':
