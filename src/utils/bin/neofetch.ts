@@ -142,7 +142,8 @@ const getInfo = () => {
     visitedAt,
   )}\n`;
   message += `<span style="color: ${mainColor}">Author</span>: ${packageJson.author.name} (${packageJson.author.email})\n`;
-  message += `<span style="color: ${mainColor}">Donate</span>: <a href="${packageJson.funding.url}" target="_blank">${packageJson.funding.type}</a>\n`;
+  // message += `<span style="color: ${mainColor}">Donate</span>: <a href="${packageJson.funding.url}" target="_blank">${packageJson.funding.type}</a>\n`;
+  message += `<span style="color: ${mainColor}">Donate</span>: ETH Address: 0x06B90A9f38351cB0Afed768CaF57DB3d285C099c\n`;
 
   return message;
 };
