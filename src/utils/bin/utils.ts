@@ -82,6 +82,7 @@ export const banner = (args?: string[]): string => {
 ☁️☁️☁️☁️☁️
 
 👉 Type 'help' to see list of available commands.
+👉 Type 'gui' for graphical interface.
 
 `;
 };
