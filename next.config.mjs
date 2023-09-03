@@ -7,7 +7,6 @@ const nextConfig = {
 		appDir: true,
 		mdxRs: true,
 	},
-	output: 'export',
 };
 
 export default withContentlayer(nextConfig);
