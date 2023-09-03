@@ -60,9 +60,11 @@ export const repo = async (args?: string[]): Promise<string> => {
 };
 
 export const donate = async (args?: string[]): Promise<string> => {
-  window.open(packageJson.funding.url, '_blank');
+  //window.open(packageJson.funding.url, '_blank');
 
-  return 'Opening donation url...';
+  // return 'Opening donation url...';
+
+  return 'ETH Address: 0x06B90A9f38351cB0Afed768CaF57DB3d285C099c';
 };
 
 export const banner = (args?: string[]): string => {
