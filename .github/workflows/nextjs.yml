@@ -53,8 +53,8 @@ jobs:
       - name: Build with Next.js
         run: pnpm run build
         
-      - name: Static HTML export with Next.js
-        run: pnpm exec -- next export
+      # - name: Static HTML export with Next.js
+       # run: pnpm exec -- next export
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
