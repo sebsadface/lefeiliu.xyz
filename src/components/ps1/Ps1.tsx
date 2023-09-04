@@ -15,7 +15,7 @@ export const Ps1 = () => {
     <div>
       <span
         style={{
-          color: theme.brightYellow,
+          color: theme.yellow,
         }}
       >
         human
@@ -29,7 +29,7 @@ export const Ps1 = () => {
       </span>
       <span
         style={{
-          color: theme.brightGreen,
+          color: theme.green,
         }}
       >
         {hostname}
