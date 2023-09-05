@@ -1,9 +1,12 @@
 {
-  "bioUrl": "https://raw.githubusercontent.com/sebsadface/sebsadface/main/README.md",
-  "social": {
+  "bioUrl": "https://raw.githubusercontent.com/sebsadface/sebsadface/main/bio.md",
+  "contact": {
     "instagram": "sebsadface",
     "github": "sebsadface",
-    "linkedin": "sebsadface"
+    "linkedin": "sebsadface",
+    "twitter": "sebsadface",
+    "email": "ll57@cs.washington.edu",
+    "linktree": "sebastianliu"
   },
   "theme": "atom",
   "border": false

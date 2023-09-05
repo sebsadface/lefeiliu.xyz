@@ -4,8 +4,7 @@ export const theme = async (
   args: string[],
   callback?: (value: string) => string,
 ): Promise<string> => {
-  if (args.length === 0) {
-    return `Usage: theme [arg]
+  let usage = `Usage: theme [arg]
 Args:
   - ls: list all themes
   - set: set a theme
@@ -14,6 +13,9 @@ Args:
 Example: 
   theme ls # to list all themes
   theme set Gruvbox # to set a theme`;
+
+  if (args.length === 0) {
+    return usage;
   }
 
   switch (args[0]) {
@@ -31,5 +33,7 @@ Example:
       const randomTheme = Themes[Math.floor(Math.random() * Themes.length)];
 
       return callback(randomTheme.name.toLowerCase());
+    default:
+      return `Command '${args[0]}' not found.\n` + usage;
   }
 };

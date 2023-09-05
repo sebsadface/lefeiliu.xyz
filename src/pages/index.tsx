@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useMatomo } from '@m4tt72/matomo-tracker-react';
 import Head from 'next/head';
 import React from 'react';
@@ -31,7 +32,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
   return (
     <>
       <Head>
-        <title>Sebastian | Home</title>
+        <title>Hi, I'm Seb.</title>
       </Head>
 
       <div
