@@ -30,10 +30,6 @@ export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
 };
 
-export const whoami = async (args: string[]): Promise<string> => {
-  return 'human';
-};
-
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
@@ -50,9 +46,9 @@ export const gui = async (args: string[]): Promise<string> => {
 //   return 'Opening mailto:ll57@cs.washington.edu...';
 // };
 
-export const vi = async (args: string[]): Promise<string> => {
-  return `why use vi? try 'emacs'.`;
-};
+// export const vi = async (args: string[]): Promise<string> => {
+//   return `why use vi? try 'emacs'.`;
+// };
 
 export const vim = async (args: string[]): Promise<string> => {
   return `why use vim? try 'emacs'.`;
