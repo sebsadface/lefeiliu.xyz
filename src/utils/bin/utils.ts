@@ -35,9 +35,10 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://gui.sebliu.xyz', '_self');
+  // window.open('https://gui.sebliu.xyz', '_self');
 
-  return 'Opening GUI version...';
+  // return 'Opening GUI version...';
+  return 'GUI version is currently under development🛠️. Please check back later 😊.';
 };
 
 // export const email = async (args: string[]): Promise<string> => {
