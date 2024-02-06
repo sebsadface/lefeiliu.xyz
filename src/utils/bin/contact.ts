@@ -19,7 +19,7 @@ export const contact = async (args: string[]): Promise<string> => {
       let result = `
       ✉️ email: <a href="mailto:${config.contact.email}">${config.contact.email}</a>\n
       👨🏻‍💻 github: <a href="https://github.com/${config.contact.github}/">${config.contact.github}</a>\n
-      🐦 twitter: <a href="https://twitter.com/${config.contact.twitter}/">${config.contact.twitter}</a>\n
+      𝕏  X (formerly twitter): <a href="https://twitter.com/${config.contact.twitter}/">${config.contact.twitter}</a>\n
       👔 linkedin: <a href="https://linkedin.com/in/${config.contact.linkedin}/">${config.contact.linkedin}</a>\n
       📸 instagram: <a href="https://instagram.com/${config.contact.instagram}/">${config.contact.instagram}</a>\n
       🌳 linktree: <a href="https://linktr.ee/${config.contact.linktree}/">${config.contact.linktree}</a>
